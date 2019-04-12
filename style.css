@@ -1,0 +1,116 @@
+* {
+    cursor: grab;
+}
+
+.nav {
+    margin-left: 300px;
+    margin-top: -40px;
+}
+
+.frame {
+    border: 8px solid black;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: nowrap /*| wrap | wrap-reverse*/;
+    flex-direction: column;
+    transform: scale(0.7);
+    cursor: url(myBall.cur), auto;
+}
+
+/* JS code involved */
+#box1 {
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    height: 200px;
+    border-bottom: 20px solid black;
+    border-left: 10px solid black;
+    background: blue;
+    align-self: flex-end;
+}
+
+/* JS code involved */
+#box2 {
+    width: 220px;
+    height: 300px;
+    border-top: 20px solid black;
+    border-right: 10px solid black;
+    border-bottom: 20px solid black;
+    background: yellow;
+    margin-left: 0px;
+}
+
+/* JS code involved */
+#box3 {
+    width: 300px;
+    height: 400px;
+    border-top: 15px solid black;
+    border-right: 20px solid black;
+    border-bottom: 0px solid black;
+    margin-left: -22px;
+    background: red;
+    align-self: center;
+}
+
+#box4 {
+    background-color: black;
+    width: 15px;
+    height: 800px;
+    position: absolute;
+    margin-left: 215px;
+}
+
+#box5 {
+    background-color: black;
+    width: 15px;
+    height: 600px;
+    margin-top: 180px;
+    position: absolute;
+    margin-left: 534px;
+}
+
+/* JS code involved */
+#box6 {
+    background-color: #ff69b4;
+    width: 299px;
+    height: 80px;
+    margin-top: 162px;
+    position: absolute;
+    margin-left: 230px;
+    border-top: 20px solid black;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+
+#box7 {
+    background-color: black;
+    width: 260px;
+    height: 18px;
+    margin-top: 370px;
+    position: absolute;
+    margin-left: 540px;
+}
+
+#box8 {
+    background-color: black;
+    width: 270px;
+    height: 12px;
+    margin-top: 700px;
+    position: absolute;
+    margin-left: 530px;
+}
+
+/* JS code involved */
+#box9 {
+    background-color: #fd5f00;
+    width: 100px;
+    height: 88px;
+    margin-top: 700px;
+    position: absolute;
+    margin-left: 692px;
+    border-top: 12px solid black;
+    border-right: 8px solid black;
+    border-left: 8px solid black;
+    border-bottom: 0px solid black;
+}
